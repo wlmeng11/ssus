@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: article.aux
+The style file: ieeetr.bst
+Database file #1: all.bib
+Warning--I didn't find a database entry for "niezen_open-source_2016"
+Warning--I didn't find a database entry for "joseph_artsenstouch_2015"
+Warning--I didn't find a database entry for "kuzmin_fast_2016"
+Warning--I didn't find a database entry for "nolting_inexpensive_2016"
+Warning--empty publisher in raj_8051_2016
+Warning--empty publisher in kim_single_2012
+You've used 18 entries,
+            1876 wiz_defined-function locations,
+            579 strings with 8106 characters,
+and the built_in function-call counts, 5962 in all, are:
+= -- 539
+> -- 311
+< -- 0
++ -- 110
+- -- 92
+* -- 479
+:= -- 843
+add.period$ -- 20
+call.type$ -- 18
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 295
+empty$ -- 526
+format.name$ -- 92
+if$ -- 1412
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 20
+newline$ -- 59
+num.names$ -- 18
+pop$ -- 85
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 212
+stack$ -- 0
+substring$ -- 402
+swap$ -- 126
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 56
+width$ -- 20
+write$ -- 170
+(There were 6 warnings)
