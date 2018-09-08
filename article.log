@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.5)  2 SEP 2018 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.5)  8 SEP 2018 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,78 +429,48 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 
 
-LaTeX Warning: Citation `niezen_open-source_2016' on page 1 undefined on input 
-line 64.
-
-
-LaTeX Warning: Citation `niezen_open-source_2016' on page 1 undefined on input 
-line 70.
-
-
-LaTeX Warning: Citation `joseph_artsenstouch_2015' on page 1 undefined on input
- line 79.
-
-
 LaTeX Warning: Citation `Fedjajevs_mscthesis_14_09_2016' on page 1 undefined on
- input line 101.
+ input line 107.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-LaTeX Warning: Citation `hua_compressed_2011' on page 1 undefined on input line
- 113.
-
+]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-
-LaTeX Warning: Citation `kuzmin_fast_2016' on page 2 undefined on input line 14
-1.
-
-
-LaTeX Warning: Citation `ylitalo_ultrasound_1994' on page 2 undefined on input 
-line 187.
-
-
-LaTeX Warning: Citation `heuvel_development_2017' on page 2 undefined on input 
-line 189.
+LaTeX Warning: Citation `weng_fpga-based_2015' on page 2 undefined on input lin
+e 174.
 
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
-
-LaTeX Warning: Citation `sikdar_novel_2014' on page 2 undefined on input line 2
-02.
-
-
-LaTeX Warning: Citation `nolting_inexpensive_2016' on page 2 undefined on input
- line 231.
-
-[2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 314.
+[2] [3]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 396.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [3]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 430.
+) [4]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 512.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 430.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 512.
  (./article.bbl
-[4]
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no “ in font ptmri7t!
+
+[5]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 )
@@ -515,7 +485,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[6
 
 ] (./article.aux)
 
@@ -523,10 +493,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4481 strings out of 494910
- 64869 string characters out of 6179837
- 133173 words of memory out of 5000000
- 7691 multiletter control sequences out of 15000+600000
+ 4484 strings out of 494910
+ 64942 string characters out of 6179837
+ 132213 words of memory out of 5000000
+ 7694 multiletter control sequences out of 15000+600000
  49876 words of font info for 100 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,11n,35p,580b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -541,10 +511,10 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on article.pdf (5 pages, 135518 bytes).
+Output written on article.pdf (6 pages, 141560 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

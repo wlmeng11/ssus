@@ -3,51 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: article.aux
 The style file: ieeetr.bst
 Database file #1: all.bib
-Warning--I didn't find a database entry for "niezen_open-source_2016"
-Warning--I didn't find a database entry for "joseph_artsenstouch_2015"
-Warning--I didn't find a database entry for "kuzmin_fast_2016"
-Warning--I didn't find a database entry for "nolting_inexpensive_2016"
+Warning--I didn't find a database entry for "Fedjajevs_mscthesis_14_09_2016"
+Warning--empty journal in fritsch_full_nodate
+Warning--empty year in fritsch_full_nodate
 Warning--empty publisher in raj_8051_2016
 Warning--empty publisher in kim_single_2012
-You've used 18 entries,
+You've used 28 entries,
             1876 wiz_defined-function locations,
-            579 strings with 8106 characters,
-and the built_in function-call counts, 5962 in all, are:
-= -- 539
-> -- 311
+            632 strings with 10497 characters,
+and the built_in function-call counts, 9224 in all, are:
+= -- 862
+> -- 447
 < -- 0
-+ -- 110
-- -- 92
-* -- 479
-:= -- 843
-add.period$ -- 20
-call.type$ -- 18
-change.case$ -- 16
++ -- 159
+- -- 131
+* -- 734
+:= -- 1288
+add.period$ -- 29
+call.type$ -- 28
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 295
-empty$ -- 526
-format.name$ -- 92
-if$ -- 1412
+cite$ -- 32
+duplicate$ -- 457
+empty$ -- 813
+format.name$ -- 131
+if$ -- 2194
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 20
-newline$ -- 59
-num.names$ -- 18
-pop$ -- 85
+int.to.str$ -- 28
+missing$ -- 30
+newline$ -- 89
+num.names$ -- 28
+pop$ -- 119
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 212
+skip$ -- 341
 stack$ -- 0
-substring$ -- 402
-swap$ -- 126
+substring$ -- 666
+swap$ -- 201
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 56
-width$ -- 20
-write$ -- 170
-(There were 6 warnings)
+warning$ -- 4
+while$ -- 93
+width$ -- 30
+write$ -- 263
+(There were 5 warnings)

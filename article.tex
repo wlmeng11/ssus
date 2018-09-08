@@ -11,7 +11,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{The interests of single-sensor ultrasound imaging today}
+\title{The interest of single-sensor ultrasound imaging}
 
 \author{\IEEEauthorblockN{Luc Jonveaux}
 \IEEEauthorblockA{\textit{Open source tinkerer} \\
@@ -49,6 +49,8 @@ Ultrasound is:
 * light: on the sense that compared to other imaging modalities, devices can be made relatively portable
 * dynamic
 
+
+See Kurjak
 
 
 
@@ -90,6 +92,10 @@ but these have not been open-sourced.
 \subsection{Pulse echo}
 
 
+\subsubsection{NDE}
+
+\cite{fritsch_full_nodate} presents a very interesting design for single element FPGA-based NDE design. It migrates traditionally analog functions, like filtering and envelope extraction to   the   digital   domain, as well as includes an EMI filteR. An interesting data compression scheme is also presented.
+
 
 \subsection{Compressed sensing}
 
@@ -120,6 +126,28 @@ This open doors to simpler hardware - and new applications \cite{kruizinga_compr
 
 \subsubsection{specs from who}
 
+
+ref kurjak
+
+In 1986, the specifications for a General Purpose Ultrasound Scanner were as follows:
+
+- Have linear and sector types
+- Frequency of interest is 3.5MHz, possibly extensible to 5MHz.
+- Sector angle of 40 degrees or more
+- Depth of 18cm
+- rate of 5 to 10Hz for sector scanning
+- image to be frozen, displayed on a 512x512 image on 4 bits.
+
+Minimal specifications for hardware can be infered:
+
+- An ADC at at least 10MHz, running on 8bits
+- 18cm means 240us per acquisition, or 2400 points at 10Msps. Details can be around 0.5mm, that's then  480 points per line. Let's consider 512 for the image size.
+- Let's consider 60 degree. To have a 1mm resolution at 18cm means 180 lines per image, which will be fed into the 512x512 image. However, given the size of the image and characterics of the piezo, it seems reasonable to have 60 lines over 40 degrees.
+- Raw images are then 60x512x8bits, that's a memory of 30kB+ before scan conversion.
+- 60 lines of 240us means 14ms ofr an image, capping the framerate to close to 70fps - seems fine. However, mechanical overheads reduce this figure.
+
+
+
 \subsubsection{key figures}
 
 \subsection{Use case}
@@ -135,11 +163,15 @@ Even if relatively simple, the A-mode enables not imaging, but rather measuremen
 
 
 
-
 \subsection{Tomorgraphy}
 
 \cite{kuzmin_fast_2016}
 
+\subsection{Use case}
+
+\subsubsection{Sleep Apnea}
+
+\cite{weng_fpga-based_2015}
 
 \section{B-Mode imaging}
 
@@ -147,11 +179,15 @@ Even if relatively simple, the A-mode enables not imaging, but rather measuremen
 
 \subsubsection{specs from who}
 
+
+% iris.wpro.who.int/bitstream/handle/10665.1/5467/9290611219_eng.pdf
+
 \subsubsection{key figures}
 
 \subsection{Architecture}
 
- 
+
+
 Configurable hardware makes the system resilient to future changes.
 Beyond this hardware designs can be adjusted without reprinting the circuit board.
 
@@ -189,6 +225,8 @@ However, the need heavier setup, for example to use up to 128 channels setups \c
 \cite{heuvel_development_2017}
 
 
+In 1974, \cite{burckhardt_experimental_1974} showed that using a synthetic aperture design as an hybrid  between holography and B scan offers a higher lateral resolution as well as better detection of tilted specular reflectors.
+
 \subsection{Use case}
 
 \subsubsection{Ultrasound capsule}
@@ -216,7 +254,29 @@ Proof of concept for a portalbe 32-channel ultrasound unit \cite{kim_single_2012
 
 \subsection{Why documenting}
 
+Open source = documentation
+
 \subsection{How to document}
+
+On this project, a set of documenting tools was created. Documentation is based on the constitution of a project body of knowledge, which consists in code files, documentation files, images, and other files being tagged with structured information.
+
+The concept used has been to store information only once, and closest to the source of the documentation. The main objective is to avoid redundancy and to allow for tracking outdated information, for elimination.
+
+Tags cover for example date and time, type of file, experiment related to the file, probes being used, description of the file, author, ...  "Template files", that have "includes" of parts of documentation, also dynamically generate files.
+
+This way, a script parses the whole, possibly unstructured repository and builds a body of knowledge, which in turn is used to generate static pages, that can cover:
+
+- List of experiment and descriptions
+- List of probes
+- List of modules
+- Jupyter notebooks
+- Readme pages
+
+The structured data and produced static pages are also pushed on a gitbook, so that documentation is easily accessible and searchable. Even Jupyter notebooks are converted to markdown for ease of browsing.
+
+Moreover, a worklog is used to generate a lab-log of research, published on a github-page structure. Presentations are dynamically generated as well from markdown files, and a log of the documentation compilation is generated, tracking broken links, unused/unreferenced files, and untagged documents.
+
+
 
 \subsection{Results}
  
@@ -225,6 +285,16 @@ Proof of concept for a portalbe 32-channel ultrasound unit \cite{kim_single_2012
 \section{Byproducts}
 
 \subsection{ADCs}
+
+For such an analog signal processing project, a Digital Acquisition (DAQ) tool was required. Most AFEs do include ADCs, but starting from scratch required efficient and fast ADCs. 
+
+However, due to the speed of acquisition higher than raw data throughput exceed a around 230MB/s, real time was never really achieved and corresponding storage buffer was needed. Several options where explored, including using a BeagleBone Black DAQ at 40Msps, a STM32 onboard DAQ up to 7.2Msps. Finally, the choice was to develop a high-speed acquisition extension for a omnipresent raspberry pi.
+
+The limitation of the raspberry pi meant that the duration of captures was limited, and that acquisition was limited to around 22Msps, being the rate to which GPIO state was copied to memory. 
+
+Interestingly enough, such a polyvalent byproduct was deemed of interest by some researchers.
+
+
 
 \subsection{phantoms}
 
@@ -247,14 +317,26 @@ An oftne used material is the TPX (polymethylpentene), used for example on an ha
 
 \subsection{ice40}
 
+
+
 \subsection{Business-like}
 
+
+
 \subsubsection{Certification}
+
+
 
 \subsubsection{Tindie}
 
 
+
+
 \subsection{Slack}
+
+Communication is key for open-source projects. Part of it goes through documentation, which enables the constitution of an asynchronous base of knowledge. 
+
+However, real-time chat tools, such as slack, is useful for real time interactions, calls around a community, ...
 
 
 \section{Ease of Use}
