@@ -1,52 +1,65 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: article.aux
+White space in argument---line 49 of file article.aux
+ : \citation{peyton_comparison_2018
+ :                                  & 32}
+I'm skipping whatever remains of this command
 The style file: ieeetr.bst
 Database file #1: all.bib
+Warning--I didn't find a database entry for "kurjak_use_1986"
 Warning--I didn't find a database entry for "Fedjajevs_mscthesis_14_09_2016"
+Warning--I didn't find a database entry for "herickhoff_low-cost_2018"
+Warning--I didn't find a database entry for "poulsen_optical_2005.pdf"
+Warning--I didn't find a database entry for "lorenzo_experimental_2009"
+Warning--I didn't find a database entry for "soto-cajiga_fpga-based_2012"
+Warning--empty publisher in raj_8051_2016
 Warning--empty journal in fritsch_full_nodate
 Warning--empty year in fritsch_full_nodate
-Warning--empty publisher in raj_8051_2016
+Warning--empty booktitle in weng_fpga-based_2015
+Warning--empty booktitle in assef_design_2012
+Warning--empty booktitle in kushi_ultrasonic_2017
+Warning--empty booktitle in hager_ultralight:_2017
 Warning--empty publisher in kim_single_2012
-You've used 28 entries,
+You've used 47 entries,
             1876 wiz_defined-function locations,
-            632 strings with 10497 characters,
-and the built_in function-call counts, 9224 in all, are:
-= -- 862
-> -- 447
+            735 strings with 14767 characters,
+and the built_in function-call counts, 15658 in all, are:
+= -- 1489
+> -- 738
 < -- 0
-+ -- 159
-- -- 131
-* -- 734
-:= -- 1288
-add.period$ -- 29
-call.type$ -- 28
-change.case$ -- 26
++ -- 263
+- -- 216
+* -- 1223
+:= -- 2167
+add.period$ -- 49
+call.type$ -- 47
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 457
-empty$ -- 813
-format.name$ -- 131
-if$ -- 2194
+cite$ -- 55
+duplicate$ -- 774
+empty$ -- 1375
+format.name$ -- 216
+if$ -- 3739
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 30
-newline$ -- 89
-num.names$ -- 28
-pop$ -- 119
+int.to.str$ -- 47
+missing$ -- 47
+newline$ -- 147
+num.names$ -- 47
+pop$ -- 199
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 341
+skip$ -- 590
 stack$ -- 0
-substring$ -- 666
-swap$ -- 201
+substring$ -- 1179
+swap$ -- 347
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 93
-width$ -- 30
-write$ -- 263
-(There were 5 warnings)
+warning$ -- 8
+while$ -- 161
+width$ -- 49
+write$ -- 440
+(There was 1 error message)

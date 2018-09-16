@@ -1,13 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{jonveaux_arduino-like_2017}
-L.~Jonveaux, ``Arduino-like development kit for single-element ultrasound
-  imaging,'' {\em Journal of Open Hardware}, vol.~1, Mar. 2017.
-
-\bibitem{niezen_open-source_2016}
-G.~Niezen, P.~Eslambolchilar, and H.~Thimbleby, ``Open-source hardware for
-  medical devices,'' {\em BMJ Innovations}, vol.~2, pp.~78--83, Apr. 2016.
-
 \bibitem{joseph_artsenstouch_2015}
 J.~Joseph, A.~S. Thrivikraman, R.~Radhakrishnan, and M.~Sivaprakasam,
   ``{ARTSENSTouch} - {A} portable device for evaluation of carotid artery
@@ -19,21 +11,6 @@ J.~Joseph, A.~S. Thrivikraman, R.~Radhakrishnan, and M.~Sivaprakasam,
 R.~Carotenuto, G.~Caliano, and A.~Caronti, ``Very fast scanning probe for
   ophthalmic echography using an ultrasound motor,'' in {\em {IEEE}
   {Ultrasonics} {Symposium}, 2004}, vol.~2, pp.~1310--1313 Vol.2, Aug. 2004.
-
-\bibitem{fritsch_full_nodate}
-C.~FRITSCH, ``A {Full} {Featured} {Ultrasound} {NDE} {System} in a {Standard}
-  {FPGA},''
-
-\bibitem{kruizinga_compressive_2017}
-P.~Kruizinga, P.~v.~d. Meulen, A.~Fedjajevs, F.~Mastik, G.~Springeling, N.~d.
-  Jong, J.~G. Bosch, and G.~Leus, ``Compressive 3d ultrasound imaging using a
-  single sensor,'' {\em Science Advances}, vol.~3, p.~e1701423, Dec. 2017.
-
-\bibitem{hua_compressed_2011}
-S.~Hua, M.~Yuchi, and M.~Ding, ``Compressed {Sensing} for {RF} {Signal}
-  {Reconstruction} in {B}-model {Ultrasound} {Imaging},'' in {\em 2011
-  {International} {Conference} on {Intelligent} {Computation} and
-  {Bio}-{Medical} {Instrumentation}}, pp.~19--22, Dec. 2011.
 
 \bibitem{li_new_2014}
 H.~Li, Y.~Zhou, L.~Wang, and X.~Wen, ``A {New} {Implementation} of {A}-{Mode}
@@ -52,6 +29,12 @@ A.~Kuzmin, X.~Zhang, J.~Finche, M.~Feigin, B.~W. Anthony, and V.~Lempitsky,
   ``Fast low-cost single element ultrasound reflectivity tomography using
   angular distribution analysis,'' in {\em 2016 {IEEE} 13th {International}
   {Symposium} on {Biomedical} {Imaging} ({ISBI})}, pp.~1021--1024, Apr. 2016.
+
+\bibitem{assef_flexible_2015}
+A.~A. Assef, J.~M. Maia, and E.~T. Costa, ``A flexible multichannel {FPGA} and
+  {PC}-{Based} ultrasound system for medical imaging research: initial phantom
+  experiments,'' {\em Research on Biomedical Engineering}, vol.~31,
+  pp.~277--281, Sept. 2015.
 
 \bibitem{dusa_low_2014}
 C.~Dusa, P.~Rajalakshmi, S.~Puli, U.~B. Desai, and S.~N. Merchant, ``Low
@@ -72,38 +55,9 @@ J.~Raj, R.~Smk, and S.~Anand, {\em 8051 microcontroller to {FPGA} and {ADC}
   in ultrasound scanners}, vol.~19.
 \newblock May 2016.
 
-\bibitem{svilainis_electronics_2014}
-L.~Svilainis, V.~Dumbrava, S.~Kitov, A.~Aleksandrovas, P.~Tervydis, and
-  D.~Liaukonis, ``Electronics for {Ultrasonic} {Imaging} {System},'' {\em
-  Elektronika ir Elektrotechnika}, vol.~20, pp.~51--56, Sept. 2014.
-
-\bibitem{hewener_mobile_2015}
-H.~Hewener and S.~Tretbar, ``Mobile ultrafast ultrasound imaging system based
-  on smartphone and tablet devices,'' in {\em 2015 {IEEE} {International}
-  {Ultrasonics} {Symposium} ({IUS})}, pp.~1--4, Oct. 2015.
-
-\bibitem{assef_flexible_2015}
-A.~A. Assef, J.~M. Maia, and E.~T. Costa, ``A flexible multichannel {FPGA} and
-  {PC}-{Based} ultrasound system for medical imaging research: initial phantom
-  experiments,'' {\em Research on Biomedical Engineering}, vol.~31,
-  pp.~277--281, Sept. 2015.
-
-\bibitem{ylitalo_ultrasound_1994}
-J.~T. Ylitalo and H.~Ermert, ``Ultrasound synthetic aperture imaging:
-  monostatic approach,'' {\em IEEE Transactions on Ultrasonics, Ferroelectrics,
-  and Frequency Control}, vol.~41, pp.~333--339, May 1994.
-
-\bibitem{heuvel_development_2017}
-T.~L. A. v.~d. Heuvel, D.~J. Graham, K.~J. Smith, C.~L.~d. Korte, and J.~A.
-  Neasham, ``Development of a {Low}-{Cost} {Medical} {Ultrasound} {Scanner}
-  {Using} a {Monostatic} {Synthetic} {Aperture},'' {\em IEEE Transactions on
-  Biomedical Circuits and Systems}, vol.~11, pp.~849--857, Aug. 2017.
-
-\bibitem{burckhardt_experimental_1974}
-C.~E. Burckhardt, P.~A. Grandchamp, and H.~Hoffmann, ``An {Experimental} 2
-  {MHz} {Synthetic} {Aperture} {Sonar} {System} {Intended} for {Medical}
-  {Use},'' {\em IEEE Transactions on Sonics and Ultrasonics}, vol.~21,
-  pp.~1--6, Jan. 1974.
+\bibitem{fritsch_full_nodate}
+C.~FRITSCH, ``A {Full} {Featured} {Ultrasound} {NDE} {System} in a {Standard}
+  {FPGA},''
 
 \bibitem{cox_ultrasound_2017}
 B.~F. Cox, F.~Stewart, H.~Lay, G.~Cummins, I.~P. Newton, M.~P.~Y. Desmulliez,
@@ -126,6 +80,55 @@ S.~Sikdar, H.~Rangwala, E.~B. Eastlake, I.~A. Hunt, A.~J. Nelson,
   Transactions on Neural Systems and Rehabilitation Engineering}, vol.~22,
   pp.~69--76, Jan. 2014.
 
+\bibitem{weng_fpga-based_2015}
+C.-K. Weng, J.-W. Chen, and C.-C. Huang, ``A {FPGA}-based wearable ultrasound
+  device for monitoring obstructive sleep apnea syndrome,'' pp.~1--4, IEEE,
+  Oct. 2015.
+
+\bibitem{assef_design_2012}
+A.~A. Assef, J.~M. Maia, F.~K. Schneider, E.~T. Costa, and V.~L. S.~N. Button,
+  ``Design of a 128-channel {FPGA}-based ultrasound imaging beamformer for
+  research activities,'' pp.~635--638, IEEE, Oct. 2012.
+
+\bibitem{assef_compact_2014}
+A.~A. Assef, J.~M. Maia, E.~T. Costa, and V.~L. d.~S. Nantes, ``A compact and
+  reconfigurable 8-channel {Ultrasound} {Evaluation} {System} for experimental
+  research,'' in {\em 2014 {IEEE} {International} {Ultrasonics} {Symposium}},
+  pp.~1607--1610, Sept. 2014.
+
+\bibitem{bharath_portable_2015}
+R.~Bharath, D.~Chandrashekar, V.~Akkala, D.~Krishna, H.~Ponduri,
+  P.~Rajalakshmi, and U.~B. Desai, ``Portable ultrasound scanner for remote
+  diagnosis,'' in {\em 2015 17th {International} {Conference} on {E}-health
+  {Networking}, {Application} {Services} ({HealthCom})}, pp.~211--216, Oct.
+  2015.
+
+\bibitem{bharath_novel_2016}
+R.~Bharath, D.~S. Reddy, P.~Kumar, and P.~Rajalakshmi, ``Novel architecture for
+  wireless transducer based ultrasound imaging system,'' in {\em 2016 {IEEE}
+  {EMBS} {Conference} on {Biomedical} {Engineering} and {Sciences} ({IECBES})},
+  pp.~432--436, Dec. 2016.
+
+\bibitem{chatar_analysis_2016}
+K.~Chatar and M.~L. George, ``Analysis of {Existing} {Designs} for
+  {FPGA}-{Based} {Ultrasound} {Imaging} {Systems},'' {\em International Journal
+  of Signal Processing, Image Processing and Pattern Recognition}, vol.~9,
+  pp.~13--24, July 2016.
+
+\bibitem{govindan_reconfigurable_2015}
+P.~Govindan, V.~Vasudevan, T.~Gonnot, and J.~Saniie, ``Reconfigurable
+  {Ultrasonic} {Testing} {System} {Development} {Using} {Programmable} {Analog}
+  {Front}-{End} and {Reconfigurable} {System}-on-{Chip} {Hardware},'' {\em
+  Circuits and Systems}, vol.~06, no.~07, p.~161, 2015.
+
+\bibitem{jonveaux_arduino-like_2017}
+L.~Jonveaux, ``Arduino-like development kit for single-element ultrasound
+  imaging,'' {\em Journal of Open Hardware}, vol.~1, Mar. 2017.
+
+\bibitem{kushi_ultrasonic_2017}
+A.~Kushi and P.~Suresh~Babu, ``Ultrasonic {Signal} {Processing} {Using}
+  {FPGA},'' pp.~82--87, Jan. 2017.
+
 \bibitem{kim_smart-phone_2017}
 J.~H. Kim, S.~Yeo, M.~Kim, S.~Kye, Y.~Lee, and T.~k. Song, ``A smart-phone
   based portable ultrasound imaging system for point-of-care applications,'' in
@@ -133,16 +136,71 @@ J.~H. Kim, S.~Yeo, M.~Kim, S.~Kye, Y.~Lee, and T.~k. Song, ``A smart-phone
   {Processing}, {BioMedical} {Engineering} and {Informatics} ({CISP}-{BMEI})},
   pp.~1--5, Oct. 2017.
 
-\bibitem{kim_single_2012}
-G.~Kim, C.~Yoon, S.-B. Kye, Y.~Lee, J.~Kang, Y.~Yoo, and T.-k. Song, {\em A
-  {Single} {FPGA}-{Based} {Portable} {Ultrasound} {Imaging} {System} for
-  {Point}-of-{Care} {Applications}}, vol.~59.
-\newblock July 2012.
+\bibitem{kruizinga_compressive_2017}
+P.~Kruizinga, P.~v.~d. Meulen, A.~Fedjajevs, F.~Mastik, G.~Springeling, N.~d.
+  Jong, J.~G. Bosch, and G.~Leus, ``Compressive 3d ultrasound imaging using a
+  single sensor,'' {\em Science Advances}, vol.~3, p.~e1701423, Dec. 2017.
 
-\bibitem{nolting_inexpensive_2016}
-L.~Nolting, P.~Hunt, T.~Cook, and B.~Douglas, ``An {Inexpensive} and {Easy}
-  {Ultrasound} {Phantom}: {A} {Novel} {Use} for {SPAM},'' {\em Journal of
-  Ultrasound in Medicine}, vol.~35, pp.~819--822, Apr. 2016.
+\bibitem{lee_new_2014}
+Y.~Lee, J.~Kang, S.~Yeo, J.~Lee, G.~D. Kim, Y.~Yoo, and T.~K. Song, ``A new
+  smart probe system for a tablet {PC}-based point-of-care ultrasound imaging
+  system: {Feasibility} study,'' in {\em 2014 {IEEE} {International}
+  {Ultrasonics} {Symposium}}, pp.~1611--1614, Sept. 2014.
+
+\bibitem{qiu_delayed-excitation_2018}
+W.~Qiu, J.~Xia, Y.~Shi, P.~Mu, X.~Wang, M.~Gao, C.~Wang, Y.~Xiao, G.~Yang,
+  J.~Liu, L.~Sun, and H.~Zheng, ``A {Delayed}-{Excitation} {Data} {Acquisition}
+  {Method} for {High}-{Frequency} {Ultrasound} {Imaging},'' {\em IEEE
+  transactions on bio-medical engineering}, vol.~65, pp.~15--20, Jan. 2018.
+
+\bibitem{cheung_multi-channel_2012}
+C.~C.~P. Cheung, A.~C.~H. Yu, N.~Salimi, B.~Y.~S. Yiu, I.~K.~H. Tsang,
+  B.~Kerby, R.~Z. Azar, and K.~Dickie, ``Multi-channel pre-beamformed data
+  acquisition system for research on advanced ultrasound imaging methods,''
+  {\em IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency
+  Control}, vol.~59, pp.~243--253, Feb. 2012.
+
+\bibitem{wall_high-_2010}
+K.~Wall, ``A {HIGH}- {SPEED} {RECONFIGURABLE} {SYSTEM} {FOR} {ULTRASOUND}
+  {RESEARCH},'' 2010.
+
+\bibitem{ibrahim_towards_2018}
+A.~Ibrahim, S.~Zhang, F.~Angiolini, M.~Arditi, S.~Kimura, S.~Goto, J.~Thiran,
+  and G.~D. Micheli, ``Towards {Ultrasound} {Everywhere}: {A} {Portable} 3d
+  {Digital} {Back}-{End} {Capable} of {Zone} and {Compound} {Imaging},'' {\em
+  IEEE Transactions on Biomedical Circuits and Systems}, pp.~1--14, 2018.
+
+\bibitem{ricci_programmable_2006}
+S.~Ricci, E.~Boni, F.~Guidi, T.~Morganti, and P.~Tortoli, ``A programmable
+  real-time system for development and test of new ultrasound investigation
+  methods,'' {\em IEEE Transactions on Ultrasonics, Ferroelectrics and
+  Frequency Control}, vol.~53, pp.~1813--1819, Oct. 2006.
+
+\bibitem{hager_ultralight:_2017}
+P.~A. Hager, D.~Speicher, C.~Degel, and L.~Benini, ``{UltraLight}: {An}
+  ultrafast imaging platform based on a digital 64-channel ultrasound probe,''
+  pp.~1--5, IEEE, Sept. 2017.
+
+\bibitem{qiu_programmable_2011}
+W.~Qiu, Y.~Yu, F.~K. Tsang, and L.~Sun, ``A programmable and compact open
+  platform for ultrasound bio-microscope,'' in {\em 2011 {IEEE} {International}
+  {Ultrasonics} {Symposium}}, pp.~1048--1051, Oct. 2011.
+
+\bibitem{batbayar_hardware_2018}
+E.~Batbayar, W.~Ham, E.~Tumenjargal, and C.~Song, ``A {Hardware} {Design} of
+  {Capture} {Multichannel} {Ultrasound} {Raw} {Signal} for {Photoacoustic}
+  {Medical} {Image},'' {\em 제어로봇시스템학회 국내학술대회
+  논문집}, pp.~257--259, May 2018.
+
+\bibitem{svilainis_electronics_2014}
+L.~Svilainis, V.~Dumbrava, S.~Kitov, A.~Aleksandrovas, P.~Tervydis, and
+  D.~Liaukonis, ``Electronics for {Ultrasonic} {Imaging} {System},'' {\em
+  Elektronika ir Elektrotechnika}, vol.~20, pp.~51--56, Sept. 2014.
+
+\bibitem{hewener_mobile_2015}
+H.~Hewener and S.~Tretbar, ``Mobile ultrafast ultrasound imaging system based
+  on smartphone and tablet devices,'' in {\em 2015 {IEEE} {International}
+  {Ultrasonics} {Symposium} ({IUS})}, pp.~1--4, Oct. 2015.
 
 \bibitem{erickson_hand-held_2001}
 S.~Erickson, D.~Kruse, and K.~Ferrara, ``A hand-held, high frequency ultrasound
@@ -156,11 +214,57 @@ J.~A. Brown, J.~Leadbetter, M.~Leung, A.~Bezanson, and R.~Adamson, ``A low cost
   {IEEE} {International} {Ultrasonics} {Symposium} ({IUS})}, pp.~549--552, July
   2013.
 
-\bibitem{megalingam_fpga_2016}
-R.~K. Megalingam, A.~B.~E. Alinkeezhil, G.~Pocklassery, H.~Menon, A.~A.
-  Thulasi, and T.~C. Kattakayam, ``{FPGA} {PCI} device design for ultrasound
-  scanning system in prenatal healthcare,'' in {\em 2016 10th {International}
-  {Conference} on {Intelligent} {Systems} and {Control} ({ISCO})}, pp.~1--6,
-  Jan. 2016.
+\bibitem{kim_single_2012}
+G.~Kim, C.~Yoon, S.-B. Kye, Y.~Lee, J.~Kang, Y.~Yoo, and T.-k. Song, {\em A
+  {Single} {FPGA}-{Based} {Portable} {Ultrasound} {Imaging} {System} for
+  {Point}-of-{Care} {Applications}}, vol.~59.
+\newblock July 2012.
+
+\bibitem{ylitalo_ultrasound_1994}
+J.~T. Ylitalo and H.~Ermert, ``Ultrasound synthetic aperture imaging:
+  monostatic approach,'' {\em IEEE Transactions on Ultrasonics, Ferroelectrics,
+  and Frequency Control}, vol.~41, pp.~333--339, May 1994.
+
+\bibitem{heuvel_development_2017}
+T.~L. A. v.~d. Heuvel, D.~J. Graham, K.~J. Smith, C.~L.~d. Korte, and J.~A.
+  Neasham, ``Development of a {Low}-{Cost} {Medical} {Ultrasound} {Scanner}
+  {Using} a {Monostatic} {Synthetic} {Aperture},'' {\em IEEE Transactions on
+  Biomedical Circuits and Systems}, vol.~11, pp.~849--857, Aug. 2017.
+
+\bibitem{nikolov_fast_2008}
+S.~Nikolov, J.~Jensen, and B.~Tomov, ``Fast parametric beamformer for synthetic
+  aperture imaging,'' {\em IEEE Transactions on Ultrasonics, Ferroelectrics and
+  Frequency Control}, vol.~55, pp.~1755--1767, Aug. 2008.
+
+\bibitem{burckhardt_experimental_1974}
+C.~E. Burckhardt, P.~A. Grandchamp, and H.~Hoffmann, ``An {Experimental} 2
+  {MHz} {Synthetic} {Aperture} {Sonar} {System} {Intended} for {Medical}
+  {Use},'' {\em IEEE Transactions on Sonics and Ultrasonics}, vol.~21,
+  pp.~1--6, Jan. 1974.
+
+\bibitem{hua_compressed_2011}
+S.~Hua, M.~Yuchi, and M.~Ding, ``Compressed {Sensing} for {RF} {Signal}
+  {Reconstruction} in {B}-model {Ultrasound} {Imaging},'' in {\em 2011
+  {International} {Conference} on {Intelligent} {Computation} and
+  {Bio}-{Medical} {Instrumentation}}, pp.~19--22, Dec. 2011.
+
+\bibitem{chang_novel_2007}
+J.~Chang, J.~Yen, and K.~Shung, ``A {Novel} {Envelope} {Detector} for
+  {High}-{Frame} {Rate}, {High}-{Frequency} {Ultrasound} {Imaging},'' {\em IEEE
+  Transactions on Ultrasonics, Ferroelectrics and Frequency Control}, vol.~54,
+  pp.~1792--1801, Sept. 2007.
+
+\bibitem{zhang_fpga_2012}
+L.~Zhang, {\em {FPGA} embedded system for ultrasonic non-destructive testing}.
+\newblock Thesis, Brunel University London, 2012.
+
+\bibitem{niezen_open-source_2016}
+G.~Niezen, P.~Eslambolchilar, and H.~Thimbleby, ``Open-source hardware for
+  medical devices,'' {\em BMJ Innovations}, vol.~2, pp.~78--83, Apr. 2016.
+
+\bibitem{nolting_inexpensive_2016}
+L.~Nolting, P.~Hunt, T.~Cook, and B.~Douglas, ``An {Inexpensive} and {Easy}
+  {Ultrasound} {Phantom}: {A} {Novel} {Use} for {SPAM},'' {\em Journal of
+  Ultrasound in Medicine}, vol.~35, pp.~819--822, Apr. 2016.
 
 \end{thebibliography}
